@@ -21,11 +21,11 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/bufbuild/buf/private/buf/buffetch"
-	"github.com/bufbuild/buf/private/bufpkg/bufanalysis"
-	"github.com/bufbuild/buf/private/pkg/normalpath"
-	"github.com/bufbuild/buf/private/pkg/stringutil"
 	"github.com/spf13/pflag"
+	"github.com/xiaoyawei/buf/private/buf/buffetch"
+	"github.com/xiaoyawei/buf/private/bufpkg/bufanalysis"
+	"github.com/xiaoyawei/buf/private/pkg/normalpath"
+	"github.com/xiaoyawei/buf/private/pkg/stringutil"
 )
 
 const (

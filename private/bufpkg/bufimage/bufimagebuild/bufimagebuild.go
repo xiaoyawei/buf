@@ -17,9 +17,9 @@ package bufimagebuild
 import (
 	"context"
 
-	"github.com/bufbuild/buf/private/bufpkg/bufanalysis"
-	"github.com/bufbuild/buf/private/bufpkg/bufimage"
-	"github.com/bufbuild/buf/private/bufpkg/bufmodule"
+	"github.com/xiaoyawei/buf/private/bufpkg/bufanalysis"
+	"github.com/xiaoyawei/buf/private/bufpkg/bufimage"
+	"github.com/xiaoyawei/buf/private/bufpkg/bufmodule"
 	"go.uber.org/zap"
 )
 

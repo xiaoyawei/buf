@@ -24,17 +24,17 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/bufbuild/buf/private/buf/bufcli"
-	"github.com/bufbuild/buf/private/buf/cmd/buf/internal/internaltesting"
-	"github.com/bufbuild/buf/private/bufpkg/bufconfig"
-	"github.com/bufbuild/buf/private/pkg/app/appcmd"
-	"github.com/bufbuild/buf/private/pkg/app/appcmd/appcmdtesting"
-	"github.com/bufbuild/buf/private/pkg/command"
-	"github.com/bufbuild/buf/private/pkg/storage"
-	"github.com/bufbuild/buf/private/pkg/storage/storageos"
-	"github.com/bufbuild/buf/private/pkg/storage/storagetesting"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
+	"github.com/xiaoyawei/buf/private/buf/bufcli"
+	"github.com/xiaoyawei/buf/private/buf/cmd/buf/internal/internaltesting"
+	"github.com/xiaoyawei/buf/private/bufpkg/bufconfig"
+	"github.com/xiaoyawei/buf/private/pkg/app/appcmd"
+	"github.com/xiaoyawei/buf/private/pkg/app/appcmd/appcmdtesting"
+	"github.com/xiaoyawei/buf/private/pkg/command"
+	"github.com/xiaoyawei/buf/private/pkg/storage"
+	"github.com/xiaoyawei/buf/private/pkg/storage/storageos"
+	"github.com/xiaoyawei/buf/private/pkg/storage/storagetesting"
 )
 
 var convertTestDataDir = filepath.Join("command", "convert", "testdata", "convert")

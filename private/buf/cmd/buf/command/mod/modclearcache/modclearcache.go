@@ -20,12 +20,12 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/bufbuild/buf/private/buf/bufcli"
-	"github.com/bufbuild/buf/private/pkg/app/appcmd"
-	"github.com/bufbuild/buf/private/pkg/app/appflag"
-	"github.com/bufbuild/buf/private/pkg/normalpath"
 	"github.com/spf13/cobra"
 	"github.com/spf13/pflag"
+	"github.com/xiaoyawei/buf/private/buf/bufcli"
+	"github.com/xiaoyawei/buf/private/pkg/app/appcmd"
+	"github.com/xiaoyawei/buf/private/pkg/app/appflag"
+	"github.com/xiaoyawei/buf/private/pkg/normalpath"
 )
 
 // NewCommand returns a new Command.

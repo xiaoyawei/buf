@@ -23,20 +23,20 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/bufbuild/buf/private/bufpkg/bufanalysis"
-	"github.com/bufbuild/buf/private/bufpkg/bufimage"
-	"github.com/bufbuild/buf/private/bufpkg/bufimage/bufimageutil"
-	"github.com/bufbuild/buf/private/bufpkg/bufmodule"
-	"github.com/bufbuild/buf/private/bufpkg/bufmodule/bufmodulebuild"
-	"github.com/bufbuild/buf/private/bufpkg/bufmodule/bufmoduleconfig"
-	"github.com/bufbuild/buf/private/bufpkg/buftesting"
-	"github.com/bufbuild/buf/private/pkg/command"
-	"github.com/bufbuild/buf/private/pkg/normalpath"
-	"github.com/bufbuild/buf/private/pkg/protosource"
-	"github.com/bufbuild/buf/private/pkg/prototesting"
-	"github.com/bufbuild/buf/private/pkg/storage/storageos"
-	"github.com/bufbuild/buf/private/pkg/testingextended"
-	"github.com/bufbuild/buf/private/pkg/thread"
+	"github.com/xiaoyawei/buf/private/bufpkg/bufanalysis"
+	"github.com/xiaoyawei/buf/private/bufpkg/bufimage"
+	"github.com/xiaoyawei/buf/private/bufpkg/bufimage/bufimageutil"
+	"github.com/xiaoyawei/buf/private/bufpkg/bufmodule"
+	"github.com/xiaoyawei/buf/private/bufpkg/bufmodule/bufmodulebuild"
+	"github.com/xiaoyawei/buf/private/bufpkg/bufmodule/bufmoduleconfig"
+	"github.com/xiaoyawei/buf/private/bufpkg/buftesting"
+	"github.com/xiaoyawei/buf/private/pkg/command"
+	"github.com/xiaoyawei/buf/private/pkg/normalpath"
+	"github.com/xiaoyawei/buf/private/pkg/protosource"
+	"github.com/xiaoyawei/buf/private/pkg/prototesting"
+	"github.com/xiaoyawei/buf/private/pkg/storage/storageos"
+	"github.com/xiaoyawei/buf/private/pkg/testingextended"
+	"github.com/xiaoyawei/buf/private/pkg/thread"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 	"go.uber.org/zap"
@@ -281,7 +281,7 @@ func TestCyclicImport(t *testing.T) {
 }
 
 func TestDuplicateSyntheticOneofs(t *testing.T) {
-	// https://github.com/bufbuild/buf/issues/1071
+	// https://github.com/xiaoyawei/buf/issues/1071
 	t.Parallel()
 	testFileAnnotations(
 		t,

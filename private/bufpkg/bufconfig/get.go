@@ -19,9 +19,9 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/bufbuild/buf/private/pkg/encoding"
-	"github.com/bufbuild/buf/private/pkg/storage"
-	"github.com/bufbuild/buf/private/pkg/stringutil"
+	"github.com/xiaoyawei/buf/private/pkg/encoding"
+	"github.com/xiaoyawei/buf/private/pkg/storage"
+	"github.com/xiaoyawei/buf/private/pkg/stringutil"
 	"go.opentelemetry.io/otel"
 	"go.opentelemetry.io/otel/codes"
 	"go.uber.org/multierr"

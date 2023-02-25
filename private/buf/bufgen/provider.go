@@ -18,8 +18,8 @@ import (
 	"context"
 	"io"
 
-	"github.com/bufbuild/buf/private/pkg/encoding"
-	"github.com/bufbuild/buf/private/pkg/storage"
+	"github.com/xiaoyawei/buf/private/pkg/encoding"
+	"github.com/xiaoyawei/buf/private/pkg/storage"
 	"go.opentelemetry.io/otel"
 	"go.opentelemetry.io/otel/codes"
 	"go.opentelemetry.io/otel/trace"

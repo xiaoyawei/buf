@@ -27,7 +27,7 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/bufbuild/buf/private/pkg/stringutil"
+	"github.com/xiaoyawei/buf/private/pkg/stringutil"
 )
 
 const (

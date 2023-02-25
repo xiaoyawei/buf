@@ -18,7 +18,7 @@ import (
 	"encoding/json"
 	"sort"
 
-	breakingv1 "github.com/bufbuild/buf/private/gen/proto/go/buf/alpha/breaking/v1"
+	breakingv1 "github.com/xiaoyawei/buf/private/gen/proto/go/buf/alpha/breaking/v1"
 )
 
 const (

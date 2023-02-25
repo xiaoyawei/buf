@@ -17,9 +17,9 @@
 package datawkt
 
 import (
-	"github.com/bufbuild/buf/private/pkg/normalpath"
-	"github.com/bufbuild/buf/private/pkg/storage"
-	"github.com/bufbuild/buf/private/pkg/storage/storagemem"
+	"github.com/xiaoyawei/buf/private/pkg/normalpath"
+	"github.com/xiaoyawei/buf/private/pkg/storage"
+	"github.com/xiaoyawei/buf/private/pkg/storage/storagemem"
 )
 
 var (

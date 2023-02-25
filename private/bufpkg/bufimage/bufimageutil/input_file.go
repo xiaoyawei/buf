@@ -15,8 +15,8 @@
 package bufimageutil
 
 import (
-	"github.com/bufbuild/buf/private/bufpkg/bufimage"
-	"github.com/bufbuild/buf/private/pkg/protosource"
+	"github.com/xiaoyawei/buf/private/bufpkg/bufimage"
+	"github.com/xiaoyawei/buf/private/pkg/protosource"
 )
 
 type inputFile struct {

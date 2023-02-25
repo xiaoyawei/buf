@@ -17,9 +17,9 @@ package bufimage
 import (
 	"testing"
 
-	imagev1 "github.com/bufbuild/buf/private/gen/proto/go/buf/alpha/image/v1"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
+	imagev1 "github.com/xiaoyawei/buf/private/gen/proto/go/buf/alpha/image/v1"
 	"google.golang.org/protobuf/proto"
 )
 

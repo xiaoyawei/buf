@@ -20,7 +20,7 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/bufbuild/buf/private/pkg/storage"
+	"github.com/xiaoyawei/buf/private/pkg/storage"
 )
 
 func readConfigOS(

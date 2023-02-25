@@ -15,8 +15,8 @@
 package internal
 
 import (
-	"github.com/bufbuild/buf/private/pkg/normalpath"
-	"github.com/bufbuild/buf/private/pkg/storage"
+	"github.com/xiaoyawei/buf/private/pkg/normalpath"
+	"github.com/xiaoyawei/buf/private/pkg/storage"
 )
 
 var _ ReadWriteBucketCloser = &readWriteBucketCloser{}

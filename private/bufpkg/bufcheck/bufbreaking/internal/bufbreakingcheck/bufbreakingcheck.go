@@ -23,9 +23,9 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/bufbuild/buf/private/pkg/protodescriptor"
-	"github.com/bufbuild/buf/private/pkg/protosource"
-	"github.com/bufbuild/buf/private/pkg/stringutil"
+	"github.com/xiaoyawei/buf/private/pkg/protodescriptor"
+	"github.com/xiaoyawei/buf/private/pkg/protosource"
+	"github.com/xiaoyawei/buf/private/pkg/stringutil"
 	"google.golang.org/protobuf/types/descriptorpb"
 )
 

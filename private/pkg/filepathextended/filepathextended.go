@@ -28,7 +28,7 @@ import (
 	"path/filepath"
 	"sort"
 
-	"github.com/bufbuild/buf/private/pkg/osextended"
+	"github.com/xiaoyawei/buf/private/pkg/osextended"
 	"go.uber.org/multierr"
 )
 

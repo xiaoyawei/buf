@@ -20,10 +20,10 @@ import (
 	"errors"
 	"testing"
 
-	"github.com/bufbuild/buf/private/pkg/app"
-	"github.com/bufbuild/buf/private/pkg/netrc"
 	"github.com/bufbuild/connect-go"
 	"github.com/stretchr/testify/assert"
+	"github.com/xiaoyawei/buf/private/pkg/app"
+	"github.com/xiaoyawei/buf/private/pkg/netrc"
 )
 
 type testMachine struct{}

@@ -21,9 +21,9 @@ import (
 	"context"
 	"strings"
 
-	"github.com/bufbuild/buf/private/pkg/app"
-	"github.com/bufbuild/buf/private/pkg/command"
-	"github.com/bufbuild/buf/private/pkg/git"
+	"github.com/xiaoyawei/buf/private/pkg/app"
+	"github.com/xiaoyawei/buf/private/pkg/command"
+	"github.com/xiaoyawei/buf/private/pkg/git"
 )
 
 func main() {

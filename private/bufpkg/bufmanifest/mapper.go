@@ -19,8 +19,8 @@ import (
 	"fmt"
 	"io"
 
-	modulev1alpha1 "github.com/bufbuild/buf/private/gen/proto/go/buf/alpha/module/v1alpha1"
-	"github.com/bufbuild/buf/private/pkg/manifest"
+	modulev1alpha1 "github.com/xiaoyawei/buf/private/gen/proto/go/buf/alpha/module/v1alpha1"
+	"github.com/xiaoyawei/buf/private/pkg/manifest"
 	"go.uber.org/multierr"
 )
 

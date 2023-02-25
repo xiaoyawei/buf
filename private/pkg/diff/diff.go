@@ -33,7 +33,7 @@ import (
 	"path/filepath"
 	"runtime"
 
-	"github.com/bufbuild/buf/private/pkg/command"
+	"github.com/xiaoyawei/buf/private/pkg/command"
 )
 
 // Diff does a diff.

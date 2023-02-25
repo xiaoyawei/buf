@@ -20,15 +20,15 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/bufbuild/buf/private/bufpkg/bufimage"
-	"github.com/bufbuild/buf/private/pkg/app"
-	"github.com/bufbuild/buf/private/pkg/app/appproto"
-	"github.com/bufbuild/buf/private/pkg/command"
-	"github.com/bufbuild/buf/private/pkg/normalpath"
-	"github.com/bufbuild/buf/private/pkg/protoencoding"
-	"github.com/bufbuild/buf/private/pkg/prototesting"
-	"github.com/bufbuild/buf/private/pkg/stringutil"
 	"github.com/stretchr/testify/require"
+	"github.com/xiaoyawei/buf/private/bufpkg/bufimage"
+	"github.com/xiaoyawei/buf/private/pkg/app"
+	"github.com/xiaoyawei/buf/private/pkg/app/appproto"
+	"github.com/xiaoyawei/buf/private/pkg/command"
+	"github.com/xiaoyawei/buf/private/pkg/normalpath"
+	"github.com/xiaoyawei/buf/private/pkg/protoencoding"
+	"github.com/xiaoyawei/buf/private/pkg/prototesting"
+	"github.com/xiaoyawei/buf/private/pkg/stringutil"
 	"google.golang.org/protobuf/types/pluginpb"
 )
 

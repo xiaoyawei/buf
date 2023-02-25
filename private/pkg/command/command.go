@@ -19,7 +19,7 @@ import (
 	"context"
 	"io"
 
-	"github.com/bufbuild/buf/private/pkg/app"
+	"github.com/xiaoyawei/buf/private/pkg/app"
 )
 
 // Runner runs external commands.

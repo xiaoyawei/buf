@@ -20,10 +20,10 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/bufbuild/buf/private/buf/buffetch/internal"
-	"github.com/bufbuild/buf/private/pkg/app"
-	"github.com/bufbuild/buf/private/pkg/storage/storageos"
 	"github.com/stretchr/testify/require"
+	"github.com/xiaoyawei/buf/private/buf/buffetch/internal"
+	"github.com/xiaoyawei/buf/private/pkg/app"
+	"github.com/xiaoyawei/buf/private/pkg/storage/storageos"
 	"go.uber.org/zap"
 )
 

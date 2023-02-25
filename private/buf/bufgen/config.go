@@ -21,12 +21,12 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/bufbuild/buf/private/bufpkg/bufmodule/bufmoduleref"
-	"github.com/bufbuild/buf/private/bufpkg/bufplugin/bufpluginref"
-	"github.com/bufbuild/buf/private/bufpkg/bufremoteplugin"
-	"github.com/bufbuild/buf/private/pkg/encoding"
-	"github.com/bufbuild/buf/private/pkg/normalpath"
-	"github.com/bufbuild/buf/private/pkg/storage"
+	"github.com/xiaoyawei/buf/private/bufpkg/bufmodule/bufmoduleref"
+	"github.com/xiaoyawei/buf/private/bufpkg/bufplugin/bufpluginref"
+	"github.com/xiaoyawei/buf/private/bufpkg/bufremoteplugin"
+	"github.com/xiaoyawei/buf/private/pkg/encoding"
+	"github.com/xiaoyawei/buf/private/pkg/normalpath"
+	"github.com/xiaoyawei/buf/private/pkg/storage"
 	"go.uber.org/zap"
 	"google.golang.org/protobuf/types/descriptorpb"
 )

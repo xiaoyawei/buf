@@ -20,8 +20,8 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/bufbuild/buf/private/bufpkg/bufimage"
-	"github.com/bufbuild/buf/private/pkg/protosource"
+	"github.com/xiaoyawei/buf/private/bufpkg/bufimage"
+	"github.com/xiaoyawei/buf/private/pkg/protosource"
 	"google.golang.org/protobuf/proto"
 	"google.golang.org/protobuf/reflect/protoreflect"
 	"google.golang.org/protobuf/types/descriptorpb"

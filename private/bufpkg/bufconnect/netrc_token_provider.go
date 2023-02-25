@@ -15,8 +15,8 @@
 package bufconnect
 
 import (
-	"github.com/bufbuild/buf/private/pkg/app"
-	"github.com/bufbuild/buf/private/pkg/netrc"
+	"github.com/xiaoyawei/buf/private/pkg/app"
+	"github.com/xiaoyawei/buf/private/pkg/netrc"
 )
 
 // netrcTokenProvider is used to provide remote tokenToAuthKey from .netrc.

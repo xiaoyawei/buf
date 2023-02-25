@@ -28,9 +28,9 @@ import (
 	"strings"
 	"unicode"
 
-	"github.com/bufbuild/buf/private/pkg/app"
 	"github.com/spf13/cobra"
 	"github.com/spf13/pflag"
+	"github.com/xiaoyawei/buf/private/pkg/app"
 	"go.uber.org/multierr"
 )
 

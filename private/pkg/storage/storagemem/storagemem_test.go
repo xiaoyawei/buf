@@ -19,12 +19,12 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/bufbuild/buf/private/pkg/normalpath"
-	"github.com/bufbuild/buf/private/pkg/storage"
-	"github.com/bufbuild/buf/private/pkg/storage/storagemem"
-	"github.com/bufbuild/buf/private/pkg/storage/storageos"
-	"github.com/bufbuild/buf/private/pkg/storage/storagetesting"
 	"github.com/stretchr/testify/require"
+	"github.com/xiaoyawei/buf/private/pkg/normalpath"
+	"github.com/xiaoyawei/buf/private/pkg/storage"
+	"github.com/xiaoyawei/buf/private/pkg/storage/storagemem"
+	"github.com/xiaoyawei/buf/private/pkg/storage/storageos"
+	"github.com/xiaoyawei/buf/private/pkg/storage/storagetesting"
 )
 
 var storagetestingDirPath = filepath.Join("..", "storagetesting")

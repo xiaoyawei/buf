@@ -26,9 +26,9 @@ import (
 	"net/textproto"
 	"net/url"
 
-	studiov1alpha1 "github.com/bufbuild/buf/private/gen/proto/go/buf/alpha/studio/v1alpha1"
-	"github.com/bufbuild/buf/private/pkg/protoencoding"
 	"github.com/bufbuild/connect-go"
+	studiov1alpha1 "github.com/xiaoyawei/buf/private/gen/proto/go/buf/alpha/studio/v1alpha1"
+	"github.com/xiaoyawei/buf/private/pkg/protoencoding"
 	"go.uber.org/zap"
 	"golang.org/x/net/http2"
 	"google.golang.org/protobuf/proto"

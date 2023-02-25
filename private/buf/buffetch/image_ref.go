@@ -15,8 +15,8 @@
 package buffetch
 
 import (
-	"github.com/bufbuild/buf/private/buf/buffetch/internal"
-	"github.com/bufbuild/buf/private/pkg/normalpath"
+	"github.com/xiaoyawei/buf/private/buf/buffetch/internal"
+	"github.com/xiaoyawei/buf/private/pkg/normalpath"
 )
 
 var _ ImageRef = &imageRef{}

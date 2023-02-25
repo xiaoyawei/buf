@@ -18,9 +18,9 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/bufbuild/buf/private/pkg/app/appcmd"
-	"github.com/bufbuild/buf/private/pkg/app/appcmd/appcmdtesting"
-	"github.com/bufbuild/buf/private/pkg/app/appflag"
+	"github.com/xiaoyawei/buf/private/pkg/app/appcmd"
+	"github.com/xiaoyawei/buf/private/pkg/app/appcmd/appcmdtesting"
+	"github.com/xiaoyawei/buf/private/pkg/app/appflag"
 )
 
 // This test is in its own file as opposed to buf_test because it needs to test a single module in testdata.

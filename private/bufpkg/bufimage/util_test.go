@@ -18,10 +18,10 @@ import (
 	"bytes"
 	"testing"
 
-	"github.com/bufbuild/buf/private/bufpkg/bufmodule/bufmoduleref"
-	imagev1 "github.com/bufbuild/buf/private/gen/proto/go/buf/alpha/image/v1"
 	"github.com/google/go-cmp/cmp"
 	"github.com/stretchr/testify/require"
+	"github.com/xiaoyawei/buf/private/bufpkg/bufmodule/bufmoduleref"
+	imagev1 "github.com/xiaoyawei/buf/private/gen/proto/go/buf/alpha/image/v1"
 	"google.golang.org/protobuf/encoding/protowire"
 	"google.golang.org/protobuf/proto"
 	"google.golang.org/protobuf/testing/protocmp"

@@ -19,13 +19,13 @@ import (
 	"io"
 	"net/http"
 
-	"github.com/bufbuild/buf/private/bufpkg/bufmodule"
-	"github.com/bufbuild/buf/private/bufpkg/bufmodule/bufmoduleref"
-	"github.com/bufbuild/buf/private/pkg/app"
-	"github.com/bufbuild/buf/private/pkg/git"
-	"github.com/bufbuild/buf/private/pkg/httpauth"
-	"github.com/bufbuild/buf/private/pkg/storage"
-	"github.com/bufbuild/buf/private/pkg/storage/storageos"
+	"github.com/xiaoyawei/buf/private/bufpkg/bufmodule"
+	"github.com/xiaoyawei/buf/private/bufpkg/bufmodule/bufmoduleref"
+	"github.com/xiaoyawei/buf/private/pkg/app"
+	"github.com/xiaoyawei/buf/private/pkg/git"
+	"github.com/xiaoyawei/buf/private/pkg/httpauth"
+	"github.com/xiaoyawei/buf/private/pkg/storage"
+	"github.com/xiaoyawei/buf/private/pkg/storage/storageos"
 	"go.uber.org/zap"
 )
 

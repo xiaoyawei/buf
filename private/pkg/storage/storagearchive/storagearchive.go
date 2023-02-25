@@ -23,10 +23,10 @@ import (
 	"io"
 	"math"
 
-	"github.com/bufbuild/buf/private/pkg/normalpath"
-	"github.com/bufbuild/buf/private/pkg/storage"
-	"github.com/bufbuild/buf/private/pkg/storage/storageutil"
 	"github.com/klauspost/compress/zip"
+	"github.com/xiaoyawei/buf/private/pkg/normalpath"
+	"github.com/xiaoyawei/buf/private/pkg/storage"
+	"github.com/xiaoyawei/buf/private/pkg/storage/storageutil"
 	"go.uber.org/multierr"
 )
 

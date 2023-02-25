@@ -20,11 +20,11 @@ import (
 	"io"
 	"path/filepath"
 
-	"github.com/bufbuild/buf/private/pkg/app"
-	"github.com/bufbuild/buf/private/pkg/app/appproto"
-	"github.com/bufbuild/buf/private/pkg/command"
-	"github.com/bufbuild/buf/private/pkg/ioextended"
-	"github.com/bufbuild/buf/private/pkg/protoencoding"
+	"github.com/xiaoyawei/buf/private/pkg/app"
+	"github.com/xiaoyawei/buf/private/pkg/app/appproto"
+	"github.com/xiaoyawei/buf/private/pkg/command"
+	"github.com/xiaoyawei/buf/private/pkg/ioextended"
+	"github.com/xiaoyawei/buf/private/pkg/protoencoding"
 	"go.opentelemetry.io/otel"
 	"go.opentelemetry.io/otel/attribute"
 	"go.opentelemetry.io/otel/codes"
@@ -122,7 +122,7 @@ func (h *binaryHandler) Handle(
 func newStderrWriteCloser(delegate io.Writer, pluginPath string) io.WriteCloser {
 	switch filepath.Base(pluginPath) {
 	case "protoc-gen-swift":
-		// https://github.com/bufbuild/buf/issues/1736
+		// https://github.com/xiaoyawei/buf/issues/1736
 		// Swallowing specific stderr message for protoc-gen-swift as protoc-gen-swift, see issue.
 		// This is all disgusting code but it's simple and it works.
 		// We did not document if pluginPath is normalized or not, so

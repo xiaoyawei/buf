@@ -17,10 +17,10 @@ package buflintcheck
 import (
 	"strings"
 
-	"github.com/bufbuild/buf/private/bufpkg/bufanalysis"
-	"github.com/bufbuild/buf/private/bufpkg/bufcheck/internal"
-	"github.com/bufbuild/buf/private/pkg/protosource"
-	"github.com/bufbuild/buf/private/pkg/stringutil"
+	"github.com/xiaoyawei/buf/private/bufpkg/bufanalysis"
+	"github.com/xiaoyawei/buf/private/bufpkg/bufcheck/internal"
+	"github.com/xiaoyawei/buf/private/pkg/protosource"
+	"github.com/xiaoyawei/buf/private/pkg/stringutil"
 )
 
 // addFunc adds a FileAnnotation.

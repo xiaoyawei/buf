@@ -18,11 +18,11 @@ import (
 	"fmt"
 	"sort"
 
-	"github.com/bufbuild/buf/private/bufpkg/bufmodule/bufmoduleref"
-	imagev1 "github.com/bufbuild/buf/private/gen/proto/go/buf/alpha/image/v1"
-	"github.com/bufbuild/buf/private/pkg/normalpath"
-	"github.com/bufbuild/buf/private/pkg/protodescriptor"
-	"github.com/bufbuild/buf/private/pkg/protoencoding"
+	"github.com/xiaoyawei/buf/private/bufpkg/bufmodule/bufmoduleref"
+	imagev1 "github.com/xiaoyawei/buf/private/gen/proto/go/buf/alpha/image/v1"
+	"github.com/xiaoyawei/buf/private/pkg/normalpath"
+	"github.com/xiaoyawei/buf/private/pkg/protodescriptor"
+	"github.com/xiaoyawei/buf/private/pkg/protoencoding"
 	"google.golang.org/protobuf/types/descriptorpb"
 	"google.golang.org/protobuf/types/pluginpb"
 )

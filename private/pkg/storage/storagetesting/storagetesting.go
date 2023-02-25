@@ -28,15 +28,15 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/bufbuild/buf/private/pkg/command"
-	"github.com/bufbuild/buf/private/pkg/storage"
-	"github.com/bufbuild/buf/private/pkg/storage/storagearchive"
-	"github.com/bufbuild/buf/private/pkg/storage/storageos"
-	"github.com/bufbuild/buf/private/pkg/storage/storageutil"
-	"github.com/bufbuild/buf/private/pkg/stringutil"
-	"github.com/bufbuild/buf/private/pkg/tmp"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
+	"github.com/xiaoyawei/buf/private/pkg/command"
+	"github.com/xiaoyawei/buf/private/pkg/storage"
+	"github.com/xiaoyawei/buf/private/pkg/storage/storagearchive"
+	"github.com/xiaoyawei/buf/private/pkg/storage/storageos"
+	"github.com/xiaoyawei/buf/private/pkg/storage/storageutil"
+	"github.com/xiaoyawei/buf/private/pkg/stringutil"
+	"github.com/xiaoyawei/buf/private/pkg/tmp"
 	"go.uber.org/atomic"
 )
 

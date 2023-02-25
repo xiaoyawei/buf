@@ -15,12 +15,12 @@
 package bufmodulecache
 
 import (
-	"github.com/bufbuild/buf/private/bufpkg/bufmodule"
-	"github.com/bufbuild/buf/private/gen/proto/connect/buf/alpha/registry/v1alpha1/registryv1alpha1connect"
-	"github.com/bufbuild/buf/private/pkg/connectclient"
-	"github.com/bufbuild/buf/private/pkg/filelock"
-	"github.com/bufbuild/buf/private/pkg/storage"
-	"github.com/bufbuild/buf/private/pkg/verbose"
+	"github.com/xiaoyawei/buf/private/bufpkg/bufmodule"
+	"github.com/xiaoyawei/buf/private/gen/proto/connect/buf/alpha/registry/v1alpha1/registryv1alpha1connect"
+	"github.com/xiaoyawei/buf/private/pkg/connectclient"
+	"github.com/xiaoyawei/buf/private/pkg/filelock"
+	"github.com/xiaoyawei/buf/private/pkg/storage"
+	"github.com/xiaoyawei/buf/private/pkg/verbose"
 	"go.uber.org/zap"
 )
 

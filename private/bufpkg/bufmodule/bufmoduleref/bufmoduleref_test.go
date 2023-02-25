@@ -21,10 +21,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/bufbuild/buf/private/bufpkg/buflock"
-	"github.com/bufbuild/buf/private/pkg/encoding"
-	"github.com/bufbuild/buf/private/pkg/manifest"
-	"github.com/bufbuild/buf/private/pkg/storage/storagemem"
+	"github.com/xiaoyawei/buf/private/bufpkg/buflock"
+	"github.com/xiaoyawei/buf/private/pkg/encoding"
+	"github.com/xiaoyawei/buf/private/pkg/manifest"
+	"github.com/xiaoyawei/buf/private/pkg/storage/storagemem"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )

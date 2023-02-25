@@ -17,13 +17,13 @@ package bufmodulebuild
 import (
 	"context"
 
-	"github.com/bufbuild/buf/private/bufpkg/bufconfig"
-	"github.com/bufbuild/buf/private/bufpkg/buflock"
-	"github.com/bufbuild/buf/private/bufpkg/bufmodule"
-	"github.com/bufbuild/buf/private/bufpkg/bufmodule/bufmoduleconfig"
-	"github.com/bufbuild/buf/private/pkg/normalpath"
-	"github.com/bufbuild/buf/private/pkg/storage"
-	"github.com/bufbuild/buf/private/pkg/storage/storagemem"
+	"github.com/xiaoyawei/buf/private/bufpkg/bufconfig"
+	"github.com/xiaoyawei/buf/private/bufpkg/buflock"
+	"github.com/xiaoyawei/buf/private/bufpkg/bufmodule"
+	"github.com/xiaoyawei/buf/private/bufpkg/bufmodule/bufmoduleconfig"
+	"github.com/xiaoyawei/buf/private/pkg/normalpath"
+	"github.com/xiaoyawei/buf/private/pkg/storage"
+	"github.com/xiaoyawei/buf/private/pkg/storage/storagemem"
 )
 
 // BuiltModule ties a bufmodule.Module with the configuration and a bucket
@@ -102,7 +102,7 @@ func (b *moduleBucketBuilder) BuildForBucket(
 		roots = append(roots, root)
 		mappers := []storage.Mapper{
 			// need to do match extension here
-			// https://github.com/bufbuild/buf/issues/113
+			// https://github.com/xiaoyawei/buf/issues/113
 			storage.MatchPathExt(".proto"),
 			storage.MapOnPrefix(root),
 		}

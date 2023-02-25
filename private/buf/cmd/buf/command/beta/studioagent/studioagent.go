@@ -20,15 +20,15 @@ import (
 	"fmt"
 	"net"
 
-	"github.com/bufbuild/buf/private/buf/bufcli"
-	"github.com/bufbuild/buf/private/bufpkg/bufstudioagent"
-	"github.com/bufbuild/buf/private/pkg/app/appcmd"
-	"github.com/bufbuild/buf/private/pkg/app/appflag"
-	"github.com/bufbuild/buf/private/pkg/cert/certclient"
-	"github.com/bufbuild/buf/private/pkg/stringutil"
-	"github.com/bufbuild/buf/private/pkg/transport/http/httpserver"
 	"github.com/spf13/cobra"
 	"github.com/spf13/pflag"
+	"github.com/xiaoyawei/buf/private/buf/bufcli"
+	"github.com/xiaoyawei/buf/private/bufpkg/bufstudioagent"
+	"github.com/xiaoyawei/buf/private/pkg/app/appcmd"
+	"github.com/xiaoyawei/buf/private/pkg/app/appflag"
+	"github.com/xiaoyawei/buf/private/pkg/cert/certclient"
+	"github.com/xiaoyawei/buf/private/pkg/stringutil"
+	"github.com/xiaoyawei/buf/private/pkg/transport/http/httpserver"
 )
 
 const (

@@ -21,10 +21,10 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/bufbuild/buf/private/bufpkg/bufimage"
-	"github.com/bufbuild/buf/private/bufpkg/bufmodule/bufmoduleref"
-	"github.com/bufbuild/buf/private/gen/data/datawkt"
-	"github.com/bufbuild/buf/private/pkg/protoversion"
+	"github.com/xiaoyawei/buf/private/bufpkg/bufimage"
+	"github.com/xiaoyawei/buf/private/bufpkg/bufmodule/bufmoduleref"
+	"github.com/xiaoyawei/buf/private/gen/data/datawkt"
+	"github.com/xiaoyawei/buf/private/pkg/protoversion"
 	"go.uber.org/zap"
 	"google.golang.org/protobuf/types/descriptorpb"
 )

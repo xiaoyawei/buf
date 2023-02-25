@@ -19,11 +19,11 @@ import (
 	"context"
 	"time"
 
-	"github.com/bufbuild/buf/private/pkg/app"
-	"github.com/bufbuild/buf/private/pkg/app/applog"
-	"github.com/bufbuild/buf/private/pkg/app/appname"
-	"github.com/bufbuild/buf/private/pkg/app/appverbose"
 	"github.com/spf13/pflag"
+	"github.com/xiaoyawei/buf/private/pkg/app"
+	"github.com/xiaoyawei/buf/private/pkg/app/applog"
+	"github.com/xiaoyawei/buf/private/pkg/app/appname"
+	"github.com/xiaoyawei/buf/private/pkg/app/appverbose"
 )
 
 // Container is a container.

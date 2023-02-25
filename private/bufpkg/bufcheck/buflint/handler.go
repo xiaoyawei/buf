@@ -17,13 +17,13 @@ package buflint
 import (
 	"context"
 
-	"github.com/bufbuild/buf/private/bufpkg/bufanalysis"
-	"github.com/bufbuild/buf/private/bufpkg/bufcheck/buflint/buflintconfig"
-	"github.com/bufbuild/buf/private/bufpkg/bufcheck/buflint/internal/buflintcheck"
-	"github.com/bufbuild/buf/private/bufpkg/bufcheck/internal"
-	"github.com/bufbuild/buf/private/bufpkg/bufimage"
-	"github.com/bufbuild/buf/private/bufpkg/bufimage/bufimageutil"
-	"github.com/bufbuild/buf/private/pkg/protosource"
+	"github.com/xiaoyawei/buf/private/bufpkg/bufanalysis"
+	"github.com/xiaoyawei/buf/private/bufpkg/bufcheck/buflint/buflintconfig"
+	"github.com/xiaoyawei/buf/private/bufpkg/bufcheck/buflint/internal/buflintcheck"
+	"github.com/xiaoyawei/buf/private/bufpkg/bufcheck/internal"
+	"github.com/xiaoyawei/buf/private/bufpkg/bufimage"
+	"github.com/xiaoyawei/buf/private/bufpkg/bufimage/bufimageutil"
+	"github.com/xiaoyawei/buf/private/pkg/protosource"
 	"go.uber.org/zap"
 )
 

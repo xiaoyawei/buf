@@ -17,7 +17,7 @@ package buftransport
 import (
 	"strings"
 
-	"github.com/bufbuild/buf/private/pkg/app"
+	"github.com/xiaoyawei/buf/private/pkg/app"
 )
 
 const (

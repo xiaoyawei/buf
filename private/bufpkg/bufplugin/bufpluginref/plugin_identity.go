@@ -18,7 +18,7 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/bufbuild/buf/private/pkg/netextended"
+	"github.com/xiaoyawei/buf/private/pkg/netextended"
 )
 
 type pluginIdentity struct {

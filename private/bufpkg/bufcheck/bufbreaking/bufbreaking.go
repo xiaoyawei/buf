@@ -20,14 +20,14 @@ package bufbreaking
 import (
 	"context"
 
-	"github.com/bufbuild/buf/private/bufpkg/bufanalysis"
-	"github.com/bufbuild/buf/private/bufpkg/bufcheck"
-	"github.com/bufbuild/buf/private/bufpkg/bufcheck/bufbreaking/bufbreakingconfig"
-	"github.com/bufbuild/buf/private/bufpkg/bufcheck/bufbreaking/internal/bufbreakingv1"
-	"github.com/bufbuild/buf/private/bufpkg/bufcheck/bufbreaking/internal/bufbreakingv1beta1"
-	"github.com/bufbuild/buf/private/bufpkg/bufcheck/internal"
-	"github.com/bufbuild/buf/private/bufpkg/bufconfig"
-	"github.com/bufbuild/buf/private/bufpkg/bufimage"
+	"github.com/xiaoyawei/buf/private/bufpkg/bufanalysis"
+	"github.com/xiaoyawei/buf/private/bufpkg/bufcheck"
+	"github.com/xiaoyawei/buf/private/bufpkg/bufcheck/bufbreaking/bufbreakingconfig"
+	"github.com/xiaoyawei/buf/private/bufpkg/bufcheck/bufbreaking/internal/bufbreakingv1"
+	"github.com/xiaoyawei/buf/private/bufpkg/bufcheck/bufbreaking/internal/bufbreakingv1beta1"
+	"github.com/xiaoyawei/buf/private/bufpkg/bufcheck/internal"
+	"github.com/xiaoyawei/buf/private/bufpkg/bufconfig"
+	"github.com/xiaoyawei/buf/private/bufpkg/bufimage"
 	"go.uber.org/zap"
 )
 

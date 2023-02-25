@@ -18,7 +18,7 @@ import (
 	"fmt"
 	"sort"
 
-	"github.com/bufbuild/buf/private/pkg/normalpath"
+	"github.com/xiaoyawei/buf/private/pkg/normalpath"
 )
 
 // NormalizeAndCheckPaths verifies that:

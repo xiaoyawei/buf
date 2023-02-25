@@ -18,15 +18,15 @@ import (
 	"context"
 	"encoding/json"
 
-	"github.com/bufbuild/buf/private/buf/bufcli"
-	"github.com/bufbuild/buf/private/pkg/app"
-	"github.com/bufbuild/buf/private/pkg/app/appcmd"
-	"github.com/bufbuild/buf/private/pkg/app/appflag"
-	"github.com/bufbuild/buf/private/pkg/protostat"
-	"github.com/bufbuild/buf/private/pkg/protostat/protostatos"
-	"github.com/bufbuild/buf/private/pkg/protostat/protostatstorage"
-	"github.com/bufbuild/buf/private/pkg/storage/storageos"
 	"github.com/spf13/pflag"
+	"github.com/xiaoyawei/buf/private/buf/bufcli"
+	"github.com/xiaoyawei/buf/private/pkg/app"
+	"github.com/xiaoyawei/buf/private/pkg/app/appcmd"
+	"github.com/xiaoyawei/buf/private/pkg/app/appflag"
+	"github.com/xiaoyawei/buf/private/pkg/protostat"
+	"github.com/xiaoyawei/buf/private/pkg/protostat/protostatos"
+	"github.com/xiaoyawei/buf/private/pkg/protostat/protostatstorage"
+	"github.com/xiaoyawei/buf/private/pkg/storage/storageos"
 )
 
 // NewCommand returns a new Command.

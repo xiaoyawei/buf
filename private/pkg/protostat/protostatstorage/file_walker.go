@@ -18,7 +18,7 @@ import (
 	"context"
 	"io"
 
-	"github.com/bufbuild/buf/private/pkg/storage"
+	"github.com/xiaoyawei/buf/private/pkg/storage"
 	"go.uber.org/multierr"
 )
 

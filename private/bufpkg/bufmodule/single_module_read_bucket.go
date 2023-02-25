@@ -17,8 +17,8 @@ package bufmodule
 import (
 	"context"
 
-	"github.com/bufbuild/buf/private/bufpkg/bufmodule/bufmoduleref"
-	"github.com/bufbuild/buf/private/pkg/storage"
+	"github.com/xiaoyawei/buf/private/bufpkg/bufmodule/bufmoduleref"
+	"github.com/xiaoyawei/buf/private/pkg/storage"
 )
 
 type singleModuleReadBucket struct {

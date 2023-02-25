@@ -23,10 +23,10 @@ import (
 	"sync"
 	"time"
 
-	"github.com/bufbuild/buf/private/pkg/filelock"
-	"github.com/bufbuild/buf/private/pkg/normalpath"
-	"github.com/bufbuild/buf/private/pkg/storage/storagearchive"
-	"github.com/bufbuild/buf/private/pkg/storage/storageos"
+	"github.com/xiaoyawei/buf/private/pkg/filelock"
+	"github.com/xiaoyawei/buf/private/pkg/normalpath"
+	"github.com/xiaoyawei/buf/private/pkg/storage/storagearchive"
+	"github.com/xiaoyawei/buf/private/pkg/storage/storageos"
 	"go.uber.org/multierr"
 	"go.uber.org/zap"
 )

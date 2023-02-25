@@ -15,8 +15,8 @@
 package bufbreakingv1
 
 import (
-	"github.com/bufbuild/buf/private/bufpkg/bufcheck/bufbreaking/internal/bufbreakingbuild"
-	"github.com/bufbuild/buf/private/bufpkg/bufcheck/internal"
+	"github.com/xiaoyawei/buf/private/bufpkg/bufcheck/bufbreaking/internal/bufbreakingbuild"
+	"github.com/xiaoyawei/buf/private/bufpkg/bufcheck/internal"
 )
 
 var (

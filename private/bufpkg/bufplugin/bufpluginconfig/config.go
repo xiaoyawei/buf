@@ -18,8 +18,8 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/bufbuild/buf/private/bufpkg/bufplugin/bufpluginref"
-	"github.com/bufbuild/buf/private/gen/data/dataspdx"
+	"github.com/xiaoyawei/buf/private/bufpkg/bufplugin/bufpluginref"
+	"github.com/xiaoyawei/buf/private/gen/data/dataspdx"
 	"golang.org/x/mod/modfile"
 	"golang.org/x/mod/semver"
 )

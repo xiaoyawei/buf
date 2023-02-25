@@ -21,8 +21,8 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/bufbuild/buf/private/bufpkg/bufmodule/bufmoduleref"
 	"github.com/stretchr/testify/require"
+	"github.com/xiaoyawei/buf/private/bufpkg/bufmodule/bufmoduleref"
 )
 
 // NewFileInfo returns a new FileInfo for testing.

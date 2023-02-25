@@ -20,7 +20,7 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/bufbuild/buf/private/pkg/app/appname"
+	"github.com/xiaoyawei/buf/private/pkg/app/appname"
 )
 
 // ExternalClientTLSConfig allows users to configure TLS on the client side.

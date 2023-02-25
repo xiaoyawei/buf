@@ -16,4 +16,4 @@
 
 package commitget
 
-import _ "github.com/bufbuild/buf/private/usage"
+import _ "github.com/xiaoyawei/buf/private/usage"

@@ -21,10 +21,10 @@ import (
 	"os"
 	"testing"
 
-	"github.com/bufbuild/buf/private/pkg/app"
-	"github.com/bufbuild/buf/private/pkg/app/appcmd"
-	"github.com/bufbuild/buf/private/pkg/stringutil"
 	"github.com/stretchr/testify/require"
+	"github.com/xiaoyawei/buf/private/pkg/app"
+	"github.com/xiaoyawei/buf/private/pkg/app/appcmd"
+	"github.com/xiaoyawei/buf/private/pkg/stringutil"
 )
 
 // RunCommandSuccessStdout runs the command and makes sure it was successful, and compares the stdout output.

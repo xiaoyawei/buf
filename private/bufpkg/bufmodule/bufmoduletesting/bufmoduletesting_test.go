@@ -18,10 +18,10 @@ import (
 	"context"
 	"testing"
 
-	"github.com/bufbuild/buf/private/bufpkg/bufmodule"
-	"github.com/bufbuild/buf/private/bufpkg/bufmodule/bufmoduletesting"
-	"github.com/bufbuild/buf/private/pkg/storage/storagemem"
 	"github.com/stretchr/testify/require"
+	"github.com/xiaoyawei/buf/private/bufpkg/bufmodule"
+	"github.com/xiaoyawei/buf/private/bufpkg/bufmodule/bufmoduletesting"
+	"github.com/xiaoyawei/buf/private/pkg/storage/storagemem"
 )
 
 func TestModuleDigestB3(t *testing.T) {

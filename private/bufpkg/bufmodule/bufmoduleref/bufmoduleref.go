@@ -21,10 +21,10 @@ import (
 	"strings"
 	"time"
 
-	"github.com/bufbuild/buf/private/bufpkg/buflock"
-	modulev1alpha1 "github.com/bufbuild/buf/private/gen/proto/go/buf/alpha/module/v1alpha1"
-	"github.com/bufbuild/buf/private/pkg/storage"
-	"github.com/bufbuild/buf/private/pkg/uuidutil"
+	"github.com/xiaoyawei/buf/private/bufpkg/buflock"
+	modulev1alpha1 "github.com/xiaoyawei/buf/private/gen/proto/go/buf/alpha/module/v1alpha1"
+	"github.com/xiaoyawei/buf/private/pkg/storage"
+	"github.com/xiaoyawei/buf/private/pkg/uuidutil"
 )
 
 const (

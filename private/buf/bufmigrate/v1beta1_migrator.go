@@ -22,15 +22,15 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/bufbuild/buf/private/buf/bufgen"
-	"github.com/bufbuild/buf/private/buf/bufwork"
-	"github.com/bufbuild/buf/private/bufpkg/bufcheck/bufbreaking/bufbreakingconfig"
-	"github.com/bufbuild/buf/private/bufpkg/bufcheck/buflint/buflintconfig"
-	"github.com/bufbuild/buf/private/bufpkg/bufconfig"
-	"github.com/bufbuild/buf/private/bufpkg/buflock"
-	"github.com/bufbuild/buf/private/bufpkg/bufmodule/bufmoduleconfig"
-	"github.com/bufbuild/buf/private/pkg/encoding"
-	"github.com/bufbuild/buf/private/pkg/stringutil"
+	"github.com/xiaoyawei/buf/private/buf/bufgen"
+	"github.com/xiaoyawei/buf/private/buf/bufwork"
+	"github.com/xiaoyawei/buf/private/bufpkg/bufcheck/bufbreaking/bufbreakingconfig"
+	"github.com/xiaoyawei/buf/private/bufpkg/bufcheck/buflint/buflintconfig"
+	"github.com/xiaoyawei/buf/private/bufpkg/bufconfig"
+	"github.com/xiaoyawei/buf/private/bufpkg/buflock"
+	"github.com/xiaoyawei/buf/private/bufpkg/bufmodule/bufmoduleconfig"
+	"github.com/xiaoyawei/buf/private/pkg/encoding"
+	"github.com/xiaoyawei/buf/private/pkg/stringutil"
 )
 
 const (

@@ -19,9 +19,9 @@ import (
 	"context"
 	"fmt"
 
-	modulev1alpha1 "github.com/bufbuild/buf/private/gen/proto/go/buf/alpha/module/v1alpha1"
-	"github.com/bufbuild/buf/private/pkg/manifest"
-	"github.com/bufbuild/buf/private/pkg/storage"
+	modulev1alpha1 "github.com/xiaoyawei/buf/private/gen/proto/go/buf/alpha/module/v1alpha1"
+	"github.com/xiaoyawei/buf/private/pkg/manifest"
+	"github.com/xiaoyawei/buf/private/pkg/storage"
 )
 
 // NewBucketFromManifestBlobs builds a storage bucket from a manifest blob and a

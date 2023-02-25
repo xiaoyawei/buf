@@ -18,10 +18,10 @@ import (
 	"context"
 	"strconv"
 
-	"github.com/bufbuild/buf/private/buf/bufref"
-	"github.com/bufbuild/buf/private/pkg/app"
-	"github.com/bufbuild/buf/private/pkg/git"
-	"github.com/bufbuild/buf/private/pkg/normalpath"
+	"github.com/xiaoyawei/buf/private/buf/bufref"
+	"github.com/xiaoyawei/buf/private/pkg/app"
+	"github.com/xiaoyawei/buf/private/pkg/git"
+	"github.com/xiaoyawei/buf/private/pkg/normalpath"
 	"go.uber.org/zap"
 )
 

@@ -22,9 +22,9 @@ import (
 	"io"
 	"os"
 
-	"github.com/bufbuild/buf/private/pkg/app"
-	"github.com/bufbuild/buf/private/pkg/ioextended"
 	"github.com/klauspost/compress/zstd"
+	"github.com/xiaoyawei/buf/private/pkg/app"
+	"github.com/xiaoyawei/buf/private/pkg/ioextended"
 	"go.uber.org/multierr"
 	"go.uber.org/zap"
 )

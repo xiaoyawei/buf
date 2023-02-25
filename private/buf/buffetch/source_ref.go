@@ -17,8 +17,8 @@ package buffetch
 import (
 	"path/filepath"
 
-	"github.com/bufbuild/buf/private/buf/buffetch/internal"
-	"github.com/bufbuild/buf/private/pkg/normalpath"
+	"github.com/xiaoyawei/buf/private/buf/buffetch/internal"
+	"github.com/xiaoyawei/buf/private/pkg/normalpath"
 )
 
 var _ SourceRef = &sourceRef{}

@@ -20,12 +20,12 @@ package bufimagebuild
 import (
 	"testing"
 
-	"github.com/bufbuild/buf/private/bufpkg/bufimage"
-	"github.com/bufbuild/buf/private/bufpkg/buftesting"
-	"github.com/bufbuild/buf/private/pkg/command"
-	"github.com/bufbuild/buf/private/pkg/prototesting"
-	"github.com/bufbuild/buf/private/pkg/testingextended"
 	"github.com/stretchr/testify/assert"
+	"github.com/xiaoyawei/buf/private/bufpkg/bufimage"
+	"github.com/xiaoyawei/buf/private/bufpkg/buftesting"
+	"github.com/xiaoyawei/buf/private/pkg/command"
+	"github.com/xiaoyawei/buf/private/pkg/prototesting"
+	"github.com/xiaoyawei/buf/private/pkg/testingextended"
 	"google.golang.org/protobuf/types/descriptorpb"
 )
 

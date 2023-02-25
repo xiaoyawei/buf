@@ -20,7 +20,7 @@
 // from OTHER to MINIMAL, and the OTHER category was deleted.
 package buflintv1
 
-import "github.com/bufbuild/buf/private/bufpkg/bufcheck/internal"
+import "github.com/xiaoyawei/buf/private/bufpkg/bufcheck/internal"
 
 // VersionSpec is the version specification for v1.
 //

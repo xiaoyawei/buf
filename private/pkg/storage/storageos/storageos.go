@@ -16,7 +16,7 @@
 package storageos
 
 import (
-	"github.com/bufbuild/buf/private/pkg/storage"
+	"github.com/xiaoyawei/buf/private/pkg/storage"
 )
 
 // Provider provides new ReadWriteBuckets.

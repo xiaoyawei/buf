@@ -21,7 +21,7 @@ package webhookv1alpha1connect
 import (
 	context "context"
 	errors "errors"
-	v1alpha1 "github.com/bufbuild/buf/private/gen/proto/go/buf/alpha/webhook/v1alpha1"
+	v1alpha1 "github.com/xiaoyawei/buf/private/gen/proto/go/buf/alpha/webhook/v1alpha1"
 	connect_go "github.com/bufbuild/connect-go"
 	http "net/http"
 	strings "strings"

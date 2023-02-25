@@ -15,8 +15,8 @@
 package bufmodulestat
 
 import (
-	"github.com/bufbuild/buf/private/bufpkg/bufmodule"
-	"github.com/bufbuild/buf/private/pkg/protostat"
+	"github.com/xiaoyawei/buf/private/bufpkg/bufmodule"
+	"github.com/xiaoyawei/buf/private/pkg/protostat"
 )
 
 // NewFileWalker returns a new FileWalker for the given Module.

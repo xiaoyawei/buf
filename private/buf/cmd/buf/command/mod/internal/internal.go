@@ -17,9 +17,9 @@ package internal
 import (
 	"fmt"
 
-	"github.com/bufbuild/buf/private/bufpkg/bufcheck"
-	"github.com/bufbuild/buf/private/bufpkg/bufconfig"
-	"github.com/bufbuild/buf/private/pkg/stringutil"
+	"github.com/xiaoyawei/buf/private/bufpkg/bufcheck"
+	"github.com/xiaoyawei/buf/private/bufpkg/bufconfig"
+	"github.com/xiaoyawei/buf/private/pkg/stringutil"
 	"github.com/spf13/pflag"
 )
 

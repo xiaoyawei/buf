@@ -15,8 +15,8 @@
 package protostatstorage
 
 import (
-	"github.com/bufbuild/buf/private/pkg/protostat"
-	"github.com/bufbuild/buf/private/pkg/storage"
+	"github.com/xiaoyawei/buf/private/pkg/protostat"
+	"github.com/xiaoyawei/buf/private/pkg/storage"
 )
 
 // NewFileWalker returns a new FileWalker for the given ReadBucket.

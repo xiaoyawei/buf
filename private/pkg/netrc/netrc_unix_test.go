@@ -27,9 +27,9 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/bufbuild/buf/private/pkg/app"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
+	"github.com/xiaoyawei/buf/private/pkg/app"
 )
 
 func TestGetMachineForName(t *testing.T) {
@@ -129,7 +129,7 @@ func TestPutMachines(t *testing.T) {
 	)
 }
 
-// https://github.com/bufbuild/buf/issues/611
+// https://github.com/xiaoyawei/buf/issues/611
 func TestPutLotsOfBigMachinesSingleLineFiles(t *testing.T) {
 	t.Parallel()
 	size := 10

@@ -18,15 +18,15 @@ import (
 	"context"
 	"fmt"
 
-	modinternal "github.com/bufbuild/buf/private/buf/cmd/buf/command/mod/internal"
-	"github.com/bufbuild/buf/private/bufpkg/bufcheck"
-	"github.com/bufbuild/buf/private/bufpkg/bufcheck/buflint"
-	"github.com/bufbuild/buf/private/bufpkg/bufconfig"
-	"github.com/bufbuild/buf/private/pkg/app/appcmd"
-	"github.com/bufbuild/buf/private/pkg/app/appflag"
-	"github.com/bufbuild/buf/private/pkg/storage/storageos"
 	"github.com/spf13/cobra"
 	"github.com/spf13/pflag"
+	modinternal "github.com/xiaoyawei/buf/private/buf/cmd/buf/command/mod/internal"
+	"github.com/xiaoyawei/buf/private/bufpkg/bufcheck"
+	"github.com/xiaoyawei/buf/private/bufpkg/bufcheck/buflint"
+	"github.com/xiaoyawei/buf/private/bufpkg/bufconfig"
+	"github.com/xiaoyawei/buf/private/pkg/app/appcmd"
+	"github.com/xiaoyawei/buf/private/pkg/app/appflag"
+	"github.com/xiaoyawei/buf/private/pkg/storage/storageos"
 )
 
 const (

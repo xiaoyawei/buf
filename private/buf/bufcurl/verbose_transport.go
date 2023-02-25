@@ -25,8 +25,8 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/bufbuild/buf/private/pkg/verbose"
 	"github.com/bufbuild/connect-go"
+	"github.com/xiaoyawei/buf/private/pkg/verbose"
 	"go.uber.org/atomic"
 )
 

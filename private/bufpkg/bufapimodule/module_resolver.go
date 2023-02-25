@@ -18,10 +18,10 @@ import (
 	"context"
 	"errors"
 
-	"github.com/bufbuild/buf/private/bufpkg/bufmodule/bufmoduleref"
-	registryv1alpha1 "github.com/bufbuild/buf/private/gen/proto/go/buf/alpha/registry/v1alpha1"
-	"github.com/bufbuild/buf/private/pkg/storage"
 	"github.com/bufbuild/connect-go"
+	"github.com/xiaoyawei/buf/private/bufpkg/bufmodule/bufmoduleref"
+	registryv1alpha1 "github.com/xiaoyawei/buf/private/gen/proto/go/buf/alpha/registry/v1alpha1"
+	"github.com/xiaoyawei/buf/private/pkg/storage"
 	"go.uber.org/zap"
 )
 

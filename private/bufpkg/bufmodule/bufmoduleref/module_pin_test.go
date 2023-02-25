@@ -19,9 +19,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/bufbuild/buf/private/pkg/manifest"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
+	"github.com/xiaoyawei/buf/private/pkg/manifest"
 )
 
 func TestNewModulePin(t *testing.T) {

@@ -19,8 +19,8 @@ import (
 	"context"
 	"time"
 
-	"github.com/bufbuild/buf/private/pkg/manifest"
-	"github.com/bufbuild/buf/private/pkg/storage"
+	"github.com/xiaoyawei/buf/private/pkg/manifest"
+	"github.com/xiaoyawei/buf/private/pkg/storage"
 )
 
 const (

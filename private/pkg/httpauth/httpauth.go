@@ -17,7 +17,7 @@ package httpauth
 import (
 	"net/http"
 
-	"github.com/bufbuild/buf/private/pkg/app"
+	"github.com/xiaoyawei/buf/private/pkg/app"
 )
 
 // Authenticator adds authentication to request.

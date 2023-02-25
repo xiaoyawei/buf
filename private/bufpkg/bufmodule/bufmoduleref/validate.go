@@ -19,9 +19,9 @@ import (
 	"fmt"
 	"strings"
 
-	modulev1alpha1 "github.com/bufbuild/buf/private/gen/proto/go/buf/alpha/module/v1alpha1"
-	"github.com/bufbuild/buf/private/pkg/app/appcmd"
-	"github.com/bufbuild/buf/private/pkg/netextended"
+	modulev1alpha1 "github.com/xiaoyawei/buf/private/gen/proto/go/buf/alpha/module/v1alpha1"
+	"github.com/xiaoyawei/buf/private/pkg/app/appcmd"
+	"github.com/xiaoyawei/buf/private/pkg/netextended"
 )
 
 // ValidateProtoModuleReference verifies the given module reference is well-formed.

@@ -20,8 +20,8 @@ import (
 	"os/exec"
 	"sort"
 
-	"github.com/bufbuild/buf/private/pkg/ioextended"
-	"github.com/bufbuild/buf/private/pkg/thread"
+	"github.com/xiaoyawei/buf/private/pkg/ioextended"
+	"github.com/xiaoyawei/buf/private/pkg/thread"
 )
 
 var emptyEnv = map[string]string{

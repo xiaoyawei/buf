@@ -22,10 +22,10 @@ import (
 	"sort"
 	"testing"
 
-	"github.com/bufbuild/buf/private/bufpkg/bufplugin/bufpluginref"
-	"github.com/bufbuild/buf/private/pkg/storage/storageos"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
+	"github.com/xiaoyawei/buf/private/bufpkg/bufplugin/bufpluginref"
+	"github.com/xiaoyawei/buf/private/pkg/storage/storageos"
 	"gopkg.in/yaml.v3"
 )
 

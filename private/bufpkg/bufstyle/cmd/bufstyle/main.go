@@ -18,8 +18,8 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/bufbuild/buf/private/bufpkg/bufstyle"
-	"github.com/bufbuild/buf/private/pkg/encoding"
+	"github.com/xiaoyawei/buf/private/bufpkg/bufstyle"
+	"github.com/xiaoyawei/buf/private/pkg/encoding"
 	"golang.org/x/tools/go/analysis/multichecker"
 )
 

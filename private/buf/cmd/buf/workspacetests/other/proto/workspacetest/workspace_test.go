@@ -21,12 +21,12 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/bufbuild/buf/private/buf/bufcli"
-	"github.com/bufbuild/buf/private/buf/cmd/buf"
-	"github.com/bufbuild/buf/private/pkg/app/appcmd"
-	"github.com/bufbuild/buf/private/pkg/app/appcmd/appcmdtesting"
-	"github.com/bufbuild/buf/private/pkg/osextended"
 	"github.com/stretchr/testify/require"
+	"github.com/xiaoyawei/buf/private/buf/bufcli"
+	"github.com/xiaoyawei/buf/private/buf/cmd/buf"
+	"github.com/xiaoyawei/buf/private/pkg/app/appcmd"
+	"github.com/xiaoyawei/buf/private/pkg/app/appcmd/appcmdtesting"
+	"github.com/xiaoyawei/buf/private/pkg/osextended"
 )
 
 func TestWorkspaceSubDirectory(t *testing.T) {

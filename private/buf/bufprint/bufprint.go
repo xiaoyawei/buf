@@ -20,10 +20,10 @@ import (
 	"io"
 	"strconv"
 
-	registryv1alpha1 "github.com/bufbuild/buf/private/gen/proto/go/buf/alpha/registry/v1alpha1"
-	"github.com/bufbuild/buf/private/pkg/connectclient"
-	"github.com/bufbuild/buf/private/pkg/protoencoding"
-	"github.com/bufbuild/buf/private/pkg/stringutil"
+	registryv1alpha1 "github.com/xiaoyawei/buf/private/gen/proto/go/buf/alpha/registry/v1alpha1"
+	"github.com/xiaoyawei/buf/private/pkg/connectclient"
+	"github.com/xiaoyawei/buf/private/pkg/protoencoding"
+	"github.com/xiaoyawei/buf/private/pkg/stringutil"
 	"go.uber.org/multierr"
 	"google.golang.org/protobuf/proto"
 )

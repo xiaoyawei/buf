@@ -27,11 +27,11 @@ import (
 	"strconv"
 	"testing"
 
-	studiov1alpha1 "github.com/bufbuild/buf/private/gen/proto/go/buf/alpha/studio/v1alpha1"
-	"github.com/bufbuild/buf/private/pkg/protoencoding"
 	"github.com/bufbuild/connect-go"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
+	studiov1alpha1 "github.com/xiaoyawei/buf/private/gen/proto/go/buf/alpha/studio/v1alpha1"
+	"github.com/xiaoyawei/buf/private/pkg/protoencoding"
 	"go.uber.org/zap/zaptest"
 	"golang.org/x/net/http2"
 	"golang.org/x/net/http2/h2c"

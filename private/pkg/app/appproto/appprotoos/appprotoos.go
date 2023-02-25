@@ -19,7 +19,7 @@ import (
 	"context"
 	"io"
 
-	"github.com/bufbuild/buf/private/pkg/storage/storageos"
+	"github.com/xiaoyawei/buf/private/pkg/storage/storageos"
 	"go.uber.org/zap"
 	"google.golang.org/protobuf/types/pluginpb"
 )

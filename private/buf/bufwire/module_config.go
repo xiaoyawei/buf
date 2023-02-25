@@ -15,8 +15,8 @@
 package bufwire
 
 import (
-	"github.com/bufbuild/buf/private/bufpkg/bufconfig"
-	"github.com/bufbuild/buf/private/bufpkg/bufmodule"
+	"github.com/xiaoyawei/buf/private/bufpkg/bufconfig"
+	"github.com/xiaoyawei/buf/private/bufpkg/bufmodule"
 )
 
 type moduleConfig struct {

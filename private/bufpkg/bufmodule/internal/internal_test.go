@@ -18,13 +18,13 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/bufbuild/buf/private/pkg/normalpath"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
+	"github.com/xiaoyawei/buf/private/pkg/normalpath"
 )
 
 func TestNormalizeAndCheckPathsRelSuccess1(t *testing.T) {
-	// https://github.com/bufbuild/buf/issues/56
+	// https://github.com/xiaoyawei/buf/issues/56
 	t.Parallel()
 	testNormalizeAndCheckPathsRelSuccess(
 		t,
@@ -115,7 +115,7 @@ func TestNormalizeAndCheckPathsRelEqual1(t *testing.T) {
 }
 
 func TestNormalizeAndCheckPathsAbsSuccess1(t *testing.T) {
-	// https://github.com/bufbuild/buf/issues/56
+	// https://github.com/xiaoyawei/buf/issues/56
 	t.Parallel()
 	testNormalizeAndCheckPathsAbsSuccess(
 		t,
@@ -202,7 +202,7 @@ func TestNormalizeAndCheckPathsAbsEqual1(t *testing.T) {
 }
 
 func TestNormalizeAndCheckPathsAbsSuccessAbs1(t *testing.T) {
-	// https://github.com/bufbuild/buf/issues/56
+	// https://github.com/xiaoyawei/buf/issues/56
 	t.Parallel()
 	testNormalizeAndCheckPathsAbsSuccess(
 		t,

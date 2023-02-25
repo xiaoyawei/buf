@@ -14,7 +14,7 @@
 
 package bufmoduleconfig
 
-import "github.com/bufbuild/buf/private/bufpkg/bufmodule/bufmoduleref"
+import "github.com/xiaoyawei/buf/private/bufpkg/bufmodule/bufmoduleref"
 
 // Config is a configuration for build.
 type Config struct {

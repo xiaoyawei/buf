@@ -15,8 +15,8 @@
 package bufmodule
 
 import (
-	"github.com/bufbuild/buf/private/bufpkg/bufmodule/bufmoduleref"
-	"github.com/bufbuild/buf/private/pkg/storage"
+	"github.com/xiaoyawei/buf/private/bufpkg/bufmodule/bufmoduleref"
+	"github.com/xiaoyawei/buf/private/pkg/storage"
 )
 
 // moduleObjectInfo is used in moduleReadBucket.

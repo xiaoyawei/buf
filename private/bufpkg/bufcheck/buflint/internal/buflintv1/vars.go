@@ -15,8 +15,8 @@
 package buflintv1
 
 import (
-	"github.com/bufbuild/buf/private/bufpkg/bufcheck/buflint/internal/buflintbuild"
-	"github.com/bufbuild/buf/private/bufpkg/bufcheck/internal"
+	"github.com/xiaoyawei/buf/private/bufpkg/bufcheck/buflint/internal/buflintbuild"
+	"github.com/xiaoyawei/buf/private/bufpkg/bufcheck/internal"
 )
 
 var (

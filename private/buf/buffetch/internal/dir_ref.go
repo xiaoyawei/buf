@@ -17,9 +17,9 @@ package internal
 import (
 	"strings"
 
-	"github.com/bufbuild/buf/private/pkg/app"
-	"github.com/bufbuild/buf/private/pkg/filepathextended"
-	"github.com/bufbuild/buf/private/pkg/normalpath"
+	"github.com/xiaoyawei/buf/private/pkg/app"
+	"github.com/xiaoyawei/buf/private/pkg/filepathextended"
+	"github.com/xiaoyawei/buf/private/pkg/normalpath"
 )
 
 var (

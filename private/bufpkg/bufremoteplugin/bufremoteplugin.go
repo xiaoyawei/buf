@@ -21,9 +21,9 @@ import (
 	"path/filepath"
 	"strings"
 
-	registryv1alpha1 "github.com/bufbuild/buf/private/gen/proto/go/buf/alpha/registry/v1alpha1"
-	"github.com/bufbuild/buf/private/pkg/app/appcmd"
-	"github.com/bufbuild/buf/private/pkg/encoding"
+	registryv1alpha1 "github.com/xiaoyawei/buf/private/gen/proto/go/buf/alpha/registry/v1alpha1"
+	"github.com/xiaoyawei/buf/private/pkg/app/appcmd"
+	"github.com/xiaoyawei/buf/private/pkg/encoding"
 )
 
 const (
