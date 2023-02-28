@@ -22,16 +22,17 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/xiaoyawei/buf/private/pkg/app"
-	"github.com/xiaoyawei/buf/private/pkg/command"
-	"github.com/xiaoyawei/buf/private/pkg/storage"
-	"github.com/xiaoyawei/buf/private/pkg/storage/storageos"
-	"github.com/xiaoyawei/buf/private/pkg/tmp"
 	"go.opentelemetry.io/otel"
 	"go.opentelemetry.io/otel/codes"
 	"go.opentelemetry.io/otel/trace"
 	"go.uber.org/multierr"
 	"go.uber.org/zap"
+
+	"github.com/xiaoyawei/buf/private/pkg/app"
+	"github.com/xiaoyawei/buf/private/pkg/command"
+	"github.com/xiaoyawei/buf/private/pkg/storage"
+	"github.com/xiaoyawei/buf/private/pkg/storage/storageos"
+	"github.com/xiaoyawei/buf/private/pkg/tmp"
 )
 
 const (
@@ -227,6 +228,28 @@ func (c *cloner) CloneToBucket(
 	}
 
 	if options.RecurseSubmodules {
+		if !strings.HasPrefix(url, "file://") {
+			// Set `remote.origin.url` for remote repositories.
+			configArgs := append(
+				gitConfigAuthArgs,
+				"config",
+				"remote.origin.url",
+				url,
+			)
+			buffer.Reset()
+			if err := c.runner.Run(
+				ctx,
+				"git",
+				command.RunWithArgs(configArgs...),
+				command.RunWithEnv(app.EnvironMap(envContainer)),
+				command.RunWithStderr(buffer),
+				command.RunWithDir(worktreeDir.AbsPath()),
+			); err != nil {
+				// Suppress printing of temp path
+				return fmt.Errorf("%v\n%v", err, strings.Replace(buffer.String(), worktreeDir.AbsPath(), "", -1))
+			}
+		}
+
 		submoduleArgs := append(
 			gitConfigAuthArgs,
 			"submodule",
