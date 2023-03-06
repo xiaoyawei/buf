@@ -735,7 +735,7 @@ func checkMessageComments(
 	}
 
 	for _, file := range files {
-		protosource.ForEachMessage(func(message protosource.Message) error {
+		err = protosource.ForEachMessage(func(message protosource.Message) error {
 			if _, found := rpcMessageNames[message.FullName()]; found {
 				return nil
 			}
@@ -748,6 +748,9 @@ func checkMessageComments(
 			}
 			return nil
 		}, file)
+		if err != nil {
+			return err
+		}
 	}
 	return nil
 }
