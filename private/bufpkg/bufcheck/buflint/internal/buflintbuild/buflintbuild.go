@@ -43,11 +43,21 @@ var (
 		"fields have non-empty comments",
 		newAdapter(buflintcheck.CheckCommentField),
 	)
-	// CommentMessageRuleBuilder is a rule builder.
-	CommentMessageRuleBuilder = internal.NewNopRuleBuilder(
+	// CommentMessageRuleBuilder is a rule builder. It skips check for request and response of an RPC.
+	CommentMessageRuleBuilder = internal.NewRuleBuilder(
 		"COMMENT_MESSAGE",
-		"messages have non-empty comments",
-		newAdapter(buflintcheck.CheckCommentMessage),
+		func(configBuilder internal.ConfigBuilder) (string, error) {
+			return "messages have non-empty comments (except request and responses for RPCs)", nil
+		},
+		func(configBuilder internal.ConfigBuilder) (internal.CheckFunc, error) {
+			return internal.CheckFunc(func(id string, ignoreFunc internal.IgnoreFunc, _ []protosource.File, files []protosource.File) ([]bufanalysis.FileAnnotation, error) {
+				return buflintcheck.CheckMessageComments(
+					id,
+					ignoreFunc,
+					files,
+				)
+			}), nil
+		},
 	)
 	// CommentOneofRuleBuilder is a rule builder.
 	CommentOneofRuleBuilder = internal.NewNopRuleBuilder(

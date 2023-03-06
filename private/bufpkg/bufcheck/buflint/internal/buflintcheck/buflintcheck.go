@@ -703,6 +703,55 @@ var CheckRPCRequestResponseUnique = func(
 	)(id, ignoreFunc, files)
 }
 
+// CheckMessageComments is a check function.
+var CheckMessageComments = func(
+	id string,
+	ignoreFunc internal.IgnoreFunc,
+	files []protosource.File,
+) ([]bufanalysis.FileAnnotation, error) {
+	return newFilesCheckFunc(
+		func(add addFunc, files []protosource.File) error {
+			return checkMessageComments(
+				add,
+				files,
+			)
+		},
+	)(id, ignoreFunc, files)
+}
+
+func checkMessageComments(
+	add addFunc,
+	files []protosource.File,
+) error {
+	allFullNameToMethod, err := protosource.FullNameToMethod(files...)
+	if err != nil {
+		return err
+	}
+
+	rpcMessageNames := make(map[string]struct{})
+	for _, method := range allFullNameToMethod {
+		rpcMessageNames[method.InputTypeName()] = struct{}{}
+		rpcMessageNames[method.OutputTypeName()] = struct{}{}
+	}
+
+	for _, file := range files {
+		protosource.ForEachMessage(func(message protosource.Message) error {
+			if _, found := rpcMessageNames[message.FullName()]; found {
+				return nil
+			}
+			location := message.Location()
+			if location == nil {
+				return nil
+			}
+			if !validLeadingComment(location.LeadingComments()) {
+				add(message, location, nil, "Message %q should have a non-empty comment for documentation.", message.Name())
+			}
+			return nil
+		}, file)
+	}
+	return nil
+}
+
 func checkRPCRequestResponseUnique(
 	add addFunc,
 	files []protosource.File,
